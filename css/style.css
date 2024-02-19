@@ -1,0 +1,55 @@
+.word-counter-container
+{
+    padding: 16px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.word-counter-container h2
+{
+  font-size: 42px;
+}
+.word-counter-container .word
+{
+    width: 500px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 24px;
+    display:block ;
+    align-items: center;
+    justify-items: center;
+    resize: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 2px;
+    margin: 0 auto;
+}
+.word-counter-container .count-btn
+{
+    padding: 10px 32px;
+    margin: 32px;
+    border: none;
+    border-radius:3px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.word-counter-container .count-btn:hover
+{
+    background-color: blueviolet;
+}
+.word-counter-container .word-count
+{
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.word-counter-container span
+{
+    font-size: 56px;
+    font-weight: bold;
+}
